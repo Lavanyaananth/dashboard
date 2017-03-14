@@ -1,0 +1,221 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+.main-nav{
+	background-color: #fff;
+	height: 80px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.optionsLeft{
+	border-right: 1px solid #f2f2f2;
+	height: auto;
+	min-height: 930px;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+.optionsList >li{
+	border-bottom: 1px solid #f2f2f2;
+	list-style: none;
+	padding: 20px 10px;
+	font-size: 18px;
+	font-weight: 300;
+}
+.optionsList > li:hover{
+	cursor: pointer;
+}
+.icon-Home {
+	color:#f0483e;
+	padding-right: 15px;
+	font-size: 26px;
+}
+.icon-Manage {
+	color:#f0483e;
+	padding-right: 15px;
+	font-size: 20px;
+}
+.icon-Approve {
+	color:#f0483e;
+	padding-right: 15px;
+	font-size: 26px;
+}
+.icon-settings{
+	color:#f0483e;
+	padding-right: 15px;
+	font-size: 26px;
+}
+.icon-addWidget{
+	color:#f0483e;
+	padding-right: 15px;
+	font-size: 26px;
+}
+.icon-search{
+	color:#f0483e;
+	padding-right: 10px;
+	font-size: 26px;
+	font-weight: 600!important;
+}
+
+.iconRight{
+	padding: 15px 20px;
+}
+.iconRight > li {
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.iconRight >li>a{
+	font-size: 18px;
+}
+.iconRight >li>a:hover{
+	cursor: pointer;
+	color: #f0483e!important;
+}
+.signList > li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.sendList{
+	padding-left: 40px;
+}
+.sendList > li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.signList > li >a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #333;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.signWrapper{
+	border-right: 1px solid #f2f2f2;
+	width: 260px;
+}
+.icon-signYourself{
+	color:#5AB46C;
+	padding-right: 10px;
+	font-size: 60px; 
+	padding-left: 30px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #333;
+}
+.signBtn{
+	background-color: #fff;
+	border-color: #f0483e;
+	width: 100px;
+	color: #f0483e;
+	margin-left: 10px;
+	margin-top:20px;
+	font-size: 18px;
+}
+.signBtn:hover{
+	background-color: #f0483e;
+	color: #fff;
+}
+
+.sendList > li >a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #333;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.icon-sendForSignature{
+	color:#5AB46C;
+	padding-right: 10px;
+	font-size: 60px; 
+	padding-left: 50px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #333;
+}
+.sendBtn{
+	background-color: #fff;
+	border-color: #f0483e;
+	width: 100px;
+	color: #f0483e;
+	margin-left: 30px;
+	margin-top:20px;
+	font-size: 18px;
+}
+.sendBtn:hover{
+	background-color: #f0483e;
+	color: #fff;
+}
+.summaryColumn >h3{
+	text-align: center;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.summaryColumn>p{
+	text-align: center;
+	
+	font-style: italic;
+	font-size: 16px;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+.list-group-item{
+	border:none;
+}
+.progress{
+	height: 10px;
+}
+.in-progress{
+	background-color: #1AABE2;
+}
+.expired, .declined{
+	background-color: #f0483e;
+}
+.completed{
+background-color: #5AB46C;
+}
+.pending{
+	background-color:#fef07d;
+}
+.actionFeedColumn{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.actionFeedColumn >h3{
+text-align: center;
+	font-weight: 600;
+}
+.actionFeedColumn>p{
+	text-align: center;
+	
+	font-style: italic;
+	font-size: 16px;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+.actionFeedContent > tr{
+	border-bottom: 1px solid #d3d3d3;
+}
+.headingInFeed > th{
+	font-weight: 600;
+	font-size: 18px;
+}
+.icon-trash{
+	color: #f0483e;
+	font-size: 18px;
+	padding-right: 10px;
+}
+.icon-reminders{
+	color: #5AB46C;
+	font-size: 18px;
+	padding-right: 10px;
+}
+.summaryColumn{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mainActions{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
